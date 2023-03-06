@@ -5,7 +5,7 @@
     - name: stop apache
       service:
         name: apache2
-        state: started
+        state: stopped
     - name: deploy static website
       copy:
         src: index.html
